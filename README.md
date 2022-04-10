@@ -27,7 +27,7 @@ getUserInfo(username: string): Promise<User>
 ```
 
 ```js
-getUserCharacters(username: string): Promise<Character>
+getUserCharacters(username: string): Promise<Character[]>
 ```
 
 ````js
