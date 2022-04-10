@@ -1,0 +1,3 @@
+enum GuildRank {
+    Leader = "Leader",
+}
