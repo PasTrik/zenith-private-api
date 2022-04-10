@@ -1,6 +1,6 @@
 {
   "name": "zenith-private-api",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ZenithMMO's private api",
   "main": "lib/index.js",
   "scripts": {

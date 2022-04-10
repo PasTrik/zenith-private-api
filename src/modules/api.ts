@@ -31,4 +31,10 @@ export class API {
             guildName: name
         })).data;
     }
+
+    public async getUserFriends(username: string) {
+        return (await api.post<Friend[]>(`friends`, {
+            username: username
+        })).data;
+    }
 }
