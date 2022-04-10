@@ -4,7 +4,7 @@
 ### Exemple of use
 
 ```js
-const Zenith = require('zenith-api')
+const Zenith = require('zenith-private-api')
 const api = new Zenith.API()
 
 api.getUserInfo("username").then(user => {
@@ -13,7 +13,7 @@ api.getUserInfo("username").then(user => {
 ```
 
 ```ts
-import * as Zenith from 'zenith-api'
+import * as Zenith from 'zenith-private-api'
 const api = new Zenith.API();
 
 api.getUserInfo("username").then(user => {

@@ -1,5 +1,5 @@
 {
-  "name": "zenith-api",
+  "name": "zenith-private-api",
   "version": "1.0.0",
   "description": "ZenithMMO's private api",
   "main": "lib/index.js",
@@ -9,8 +9,8 @@
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
     "lint": "tslint -p tsconfig.json"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["zenith", "api", "private", "zenithmmo", "mmo"],
+  "author": "PasTrik",
   "license": "ISC",
   "devDependencies": {
     "prettier": "^2.6.2",
