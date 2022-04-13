@@ -27,6 +27,10 @@ getUserInfo(username: string): Promise<User>
 ```
 
 ```js
+getUserFriends(username: string): Promise<Friend[]>
+```
+
+```js
 getUserCharacters(username: string): Promise<Character[]>
 ```
 
